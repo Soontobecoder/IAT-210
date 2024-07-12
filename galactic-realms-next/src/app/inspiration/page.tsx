@@ -106,14 +106,14 @@ export default function InspirationPage() {
           </p>
         </div>
         <div
-          className="col-span-2 row-span-3 ml-5 flex items-end"
+          className="col-span-2 row-span-3 ml-5"
           style={{
             borderLeft: "solid",
             paddingLeft: "20px",
           }}
         >
           <img
-            style={{ width: "400px", alignItems: "end" }}
+            style={{ width: "400px", marginLeft: "auto" }}
             src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Carcassonne-game.jpg/220px-Carcassonne-game.jpg"
           />
         </div>
