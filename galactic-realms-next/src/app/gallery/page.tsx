@@ -1,6 +1,6 @@
 
 
-export default function VisualGalleryPage() {
+export default function GalleryPage() {
   return(
     <div>
       
