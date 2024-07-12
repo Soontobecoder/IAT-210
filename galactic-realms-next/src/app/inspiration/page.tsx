@@ -1,6 +1,6 @@
 
 
-export default function Inspiration() {
+export default function InspirationPage() {
   return(
     <div>
       

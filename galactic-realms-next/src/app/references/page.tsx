@@ -1,6 +1,6 @@
 
 
-export default function RulesPage() {
+export default function ReferencesPage() {
   return(
     <div>
       
