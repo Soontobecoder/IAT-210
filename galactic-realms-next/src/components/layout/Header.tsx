@@ -7,9 +7,11 @@ import Link from 'next/link';
 
 export function Header() {
   return (
+    <>
+    <div className='h-20 w-full'></div>
     <header className={cn(
       'w-full absolute px-8 h-20 border-b-2 flex flex-row justify-start items-center', 
-      'gap-4',
+      'gap-4 top-0 left-0',
       orbitron.className,
       )}>
 
@@ -34,5 +36,6 @@ export function Header() {
         <Navbar />
       </div>
     </header>
+    </>
   );
 }
