@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+
+
+
 import "./globals.css";
 import '@radix-ui/themes/styles.css';
+
+
+
 import { Providers } from '@/components/providers/Providers';
 import { MainLayout } from '@/components/layout/MainLayout';
+import { inter } from '@/fonts';
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Galactic Realms",
