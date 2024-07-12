@@ -27,8 +27,8 @@ const links: NavLinkProps[] = [
     href: '/gallery',
   },
   {
-    label: 'References',
-    href: '/references',
+    label: 'Flowchart',
+    href: '/flowchart',
   },
   // {
   //   label: '',
@@ -38,10 +38,10 @@ const links: NavLinkProps[] = [
   //   label: '',
   //   href: '/',
   // },
-  // {
-  //   label: '',
-  //   href: '/',
-  // },
+  {
+    label: 'References',
+    href: '/references',
+  },
 ];
 
 export function Navbar() {
