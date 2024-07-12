@@ -1,6 +1,6 @@
 
 
-export default function MinutesPage() {
+export default function LogsPage() {
   return(
     <div>
       
