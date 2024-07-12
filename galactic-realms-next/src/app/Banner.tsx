@@ -1,30 +1,32 @@
-import { Suspense } from 'react'
+import { Suspense } from "react";
 
-import Image from 'next/image';
+import Image from "next/image";
 
-import starMap from '/public/banner.png';
-import { cn } from '@/utils/cn';
-import { orbitron } from '@/fonts';
+import starMap from "/public/banner.png";
+import { cn } from "@/utils/cn";
+import { orbitron } from "@/fonts";
 
 export function Banner() {
-  return(
-    <div className='w-screen relative'>
-
-    <div className='w-screen relative'>
-      <Image 
-        src={starMap}
-        alt='Star Map'
-        priority
-        />
-    </div>
-    <div className={cn(
-        'absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2',
-        // 'border-2 border-red-500',
-      )}>
-      <h2 className={cn('relative text-white text-7xl font-bold scale-150', orbitron.className)}>
-        Galactic Realms
-      </h2>
-    </div>
+  return (
+    <div className="w-screen relative">
+      <div className="w-screen relative">
+        <Image src={starMap} alt="Star Map" priority />
+      </div>
+      <div
+        className={cn(
+          "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+          // 'border-2 border-red-500',
+        )}
+      >
+        <h2
+          className={cn(
+            "relative text-white text-7xl font-bold scale-150",
+            orbitron.className
+          )}
+        >
+          Galactic Realms
+        </h2>
+      </div>
     </div>
   );
 }
