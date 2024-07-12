@@ -10,8 +10,8 @@ const config: Config = {
     extend: {  
       fontFamily: {
       sans: ['var(--font-inter)'],
-      roboto: ['var(--font-roboto'],
-      orbitron: ['var(--font-orbitron'],
+      roboto: ['var(--font-roboto)'],
+      orbitron: ['var(--font-orbitron)'],
     },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -15,4 +15,5 @@ export const roboto = Roboto({
 });
 export const orbitron = Orbitron({
   subsets: ["latin"],
+  display: 'swap',
   variable: '--font-orbitron', });
