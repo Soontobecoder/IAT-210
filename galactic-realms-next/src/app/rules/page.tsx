@@ -1,9 +1,12 @@
+import { PageTitle } from '@/components/layout/PageTitle';
 
 
 export default function RulesPage() {
   return(
-    <div>
-      
-    </div>
+    <>
+    <PageTitle>Rules</PageTitle>
+    
+    
+    </>
   );
 }

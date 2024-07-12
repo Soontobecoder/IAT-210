@@ -1,9 +1,13 @@
+import { PageTitle } from '@/components/layout/PageTitle';
 
 
 export default function ReferencesPage() {
   return(
-    <div>
-      
-    </div>
+    
+    <>
+    <PageTitle>References</PageTitle>
+    
+    
+    </>
   );
 }
