@@ -2,20 +2,15 @@ import { Suspense } from "react";
 import { cn } from "@/utils/cn";
 import { orbitron } from "@/fonts";
 
+import { PageTitle } from "@/components/layout/PageTitle";
+
 export default function InspirationPage() {
   return (
     <main
       style={{ marginLeft: "80px", marginRight: "80px" }}
       className="flex min-h-screen flex-col items-center justify-start p-24"
     >
-      <div className="mt-12">
-        <h2
-          className={cn("relative text-7xl font-bold", orbitron.className)}
-          style={{ borderBottom: "solid", paddingBottom: "40px" }}
-        >
-          Inspiration
-        </h2>
-      </div>
+      <PageTitle>Inspiration</PageTitle>
       <div className="grid grid-flow-col grid-cols-6 mb-10">
         <div className="col-start-2 col-span-4 mt-10">
           <p style={{ textAlign: "justify" }}>
