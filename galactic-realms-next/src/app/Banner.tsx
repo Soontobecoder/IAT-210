@@ -21,7 +21,7 @@ export function Banner() {
         'absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2',
         // 'border-2 border-red-500',
       )}>
-      <h2 className={cn('relative text-white text-7xl font-bold', orbitron.className)}>
+      <h2 className={cn('relative text-white text-7xl font-bold scale-150', orbitron.className)}>
         Galactic Realms
       </h2>
     </div>
