@@ -72,8 +72,11 @@ export default function Home() {
             </h2>
           </div>
           <div className="grid grid-flow-col grid-cols-3 gap-24 mt-12 mb-12">
-            <div style={{ textAlign: "center", color: "#5F7D8C" }}>
-              <h2 className={cn("relative text-4xl", orbitron.className)}>
+            <div style={{ textAlign: "center" }}>
+              <h2
+                style={{ color: "#5F7D8C" }}
+                className={cn("relative text-4xl", orbitron.className)}
+              >
                 What
               </h2>
               <p className="mt-5">
@@ -89,8 +92,11 @@ export default function Home() {
                 Lorem Ipsum.
               </p>
             </div>
-            <div style={{ textAlign: "center", color: "#5F7D8C" }}>
-              <h2 className={cn("relative text-4xl", orbitron.className)}>
+            <div style={{ textAlign: "center" }}>
+              <h2
+                style={{ color: "#5F7D8C" }}
+                className={cn("relative text-4xl", orbitron.className)}
+              >
                 How
               </h2>
               <p className="mt-5">
@@ -106,8 +112,11 @@ export default function Home() {
                 Lorem Ipsum.
               </p>
             </div>
-            <div style={{ textAlign: "center", color: "#5F7D8C" }}>
-              <h2 className={cn("relative text-4xl", orbitron.className)}>
+            <div style={{ textAlign: "center" }}>
+              <h2
+                style={{ color: "#5F7D8C" }}
+                className={cn("relative text-4xl", orbitron.className)}
+              >
                 Why
               </h2>
               <p className="mt-5">
