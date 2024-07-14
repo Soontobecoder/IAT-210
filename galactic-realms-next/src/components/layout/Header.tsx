@@ -23,7 +23,7 @@ export function Header() {
         >
           <h1
             className={cn(
-              "flex flex-row p-2 h-fit w-fit border-2 text-2xl font-bold mx-4",
+              "flex flex-row p-2 h-fit w-fit text-2xl font-bold mx-4",
               "hover:text-indigo-600 transition-all"
             )}
           >
