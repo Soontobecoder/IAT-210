@@ -2,7 +2,7 @@ import { Suspense } from "react";
 
 import Image from "next/image";
 
-import starMap from "/public/game-board-banner.png";
+import bannerImg from "/public/game-board-banner.png";
 import { cn } from "@/utils/cn";
 import { orbitron } from "@/fonts";
 
@@ -10,7 +10,7 @@ export function Banner() {
   return (
     <div className="w-screen relative">
       <div className="w-screen relative">
-        <Image src={starMap} alt="Star Map" priority />
+        <Image src={bannerImg} alt="Game Board Banner" priority />
       </div>
       <div
         className={cn(
