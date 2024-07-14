@@ -1,34 +1,34 @@
 export type LogData = {
-  date: string,
+  label: string,
   href: string,
 }
 
 export const minutesData: LogData[] = [
   {
-    date: "May 23, 2024",
-    href: "iat-210_minutes_may-23.pdf",
+    label: "May 23, 2024",
+    href: "minutes/iat-210_minutes_may-23.pdf",
   },
   {
-    date: "Jun 05, 2024",
-    href: "iat-210_minutes_june-5.pdf",
+    label: "Jun 05, 2024",
+    href: "minutes/iat-210_minutes_june-5.pdf",
   },
   {
-    date: "Jun 11, 2024",
-    href: "iat-210_minutes_june-11.pdf",
+    label: "Jun 11, 2024",
+    href: "minutes/iat-210_minutes_june-11.pdf",
   },
   {
-    date: "Jul 08, 2024",
-    href: "iat-210_minutes_july-8.pdf",
+    label: "Jul 08, 2024",
+    href: "minutes/iat-210_minutes_july-8.pdf",
   },
 ];
 
 export const playtestData: LogData[] = [
   {
-    date: "May 23, 2024",
-    href: "iat-210_minutes_may-23.pdf",
+    label: "Jul 10, 2024",
+    href: "playtests/iat-210_playtest-1.pdf",
   },
   {
-    date: "Jun 05, 2024",
-    href: "iat-210_minutes_june-5.pdf",
+    label: "Jul 11, 2024",
+    href: "playtests/iat-210_playtest-2.pdf",
   },
 ];
