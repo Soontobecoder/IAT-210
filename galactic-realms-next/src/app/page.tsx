@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main
       style={{ marginLeft: "80px", marginRight: "80px" }}
-      className="flex min-h-screen flex-col items-center justify-start pb-24 pt-20"
+      className="flex min-h-screen flex-col items-center justify-start pb-24 pt-20 "
     >
       <Suspense fallback={<Spinner />}>
         <Banner />
@@ -48,7 +48,7 @@ export default function Home() {
         ></iframe>
 
         {/* Game pillars */}
-        <div className="mt-10">
+        <div className="mt-20">
           <div style={{ textAlign: "center" }}>
             <h2
               className={cn("relative text-7xl font-bold", orbitron.className)}
@@ -97,7 +97,9 @@ export default function Home() {
         </div>
 
         {/* Backstory */}
-        <div style={{ textAlign: "center" }}>
+        <div 
+          className='my-20 flex flex-col items-center justify-start'
+        >
           <h2 className={cn("relative text-7xl font-bold", orbitron.className)}>
             Backstory
           </h2>
