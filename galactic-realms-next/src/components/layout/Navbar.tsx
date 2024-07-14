@@ -14,16 +14,16 @@ const links: NavLinkProps[] = [
     href: "/inspiration",
   },
   {
-    label: "Logs",
-    href: "/logs",
-  },
-  {
     label: "Rules",
     href: "/rules",
   },
   {
     label: "Gallery",
     href: "/gallery",
+  },
+  {
+    label: "Logs",
+    href: "/logs",
   },
   {
     label: "Flowchart",
@@ -47,7 +47,7 @@ export function Navbar() {
   return (
     <div
       className={cn(
-        "w-fit mx-4 p-2 border-2 flex flex-row justify-start items-center",
+        "w-fit mx-4 p-2 flex flex-row justify-start items-center text-lg gap-6",
         orbitron.className
       )}
     >
@@ -60,7 +60,7 @@ export function Navbar() {
 
 function NavLink({ label, href }: NavLinkProps) {
   return (
-    <Link className="p-2 hover:text-indigo-600 transition-all" href={href}>
+    <Link className="hover:text-indigo-600 transition-all" href={href}>
       {label}
     </Link>
   );
