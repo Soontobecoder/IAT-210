@@ -15,12 +15,9 @@ export default function Home() {
       <Suspense fallback={<Spinner />}>
         <Banner />
         
-          
-
         {/* Core statement  */}
         <div
-          style={{ textAlign: "center" }}
-          className="grid grid-flow-row gap-10 mt-10"
+          className="flex flex-col gap-10 my-20 text-center items-center justify-start w-[50rem]"
         >
           <div>
             <h2 className={cn("text-7xl font-bold", orbitron.className)}>
@@ -28,7 +25,7 @@ export default function Home() {
             </h2>
           </div>
           <div>
-            <p className={cn("text-3xl", orbitron.className)}>
+            <p className={cn("text-3xl")}>
               Lead your faction to victory by expanding your influence across the stars and claiming ancient alien relics.
             </p>
           </div>
@@ -122,8 +119,8 @@ export default function Home() {
             this galaxy, and find these powerful relics. But with this new
             opportunity comes inevitable conflict. Each faction has its own 
             plans in mind for how to shape the future of Andromis Major, sparking
-            fierce competition over who will come to dominate this 
-            new <strong>Galactic Realm</strong>.
+            fierce competition over who will come to dominate these 
+            new <strong>Galactic Realms</strong>.
           </p>
         </div>
       </Suspense>
