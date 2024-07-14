@@ -96,10 +96,12 @@ export default function LogsPage() {
             minutes.{" "}
           </p>
         </div>
+        
+        {/* Meeting Minutes #1 */}
         <div className="col-start-2 row-start-3">
           <a
             target="blank"
-            href="https://docs.google.com/document/d/1oONTJ9TXjRmw60BjZ9P4yqc-I1TDHBKKyKkz4JudbV8/edit"
+            href="minutes/iat-210_minutes_may-23.pdf"
             type="button"
             style={{ fontSize: "24px" }}
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -123,10 +125,12 @@ export default function LogsPage() {
             Group meet 1
           </a>
         </div>
+
+        {/* Meeting Minutes #2 */}
         <div className="col-start-5 row-start-3">
           <a
             target="blank"
-            href="https://docs.google.com/document/d/1fUEd9RVzYKQ8ugLa86mHZ1daCwzB1cP8Tqylkb6njY0/edit"
+            href="minutes/iat-210_minutes_june-5.pdf"
             type="button"
             style={{ fontSize: "24px" }}
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
