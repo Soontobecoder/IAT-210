@@ -10,7 +10,7 @@ export default function LogsPage() {
       <div className="grid grid-flow-col grid-cols-6 mb-10">
         <div className="col-span-4 col-start-2">
           <p>
-            Our team did two playtestings. Each playtesting log contains the
+            Our team did two playtests. Each playtest log contains the
             challenges or difficulties that our team faced (as players) during
             each round. It also contains adjustments of the game mechanics that
             our team made after each playtesting.
