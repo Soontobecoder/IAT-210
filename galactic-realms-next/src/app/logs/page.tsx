@@ -1,4 +1,5 @@
 import { PageTitle } from "@/components/layout/PageTitle";
+import { MinutesList } from './MinutesList';
 
 export default function LogsPage() {
   return (
@@ -81,9 +82,9 @@ export default function LogsPage() {
       {/* divider */}
       <div className="mt-10"></div>
 
-      <PageTitle>Group Meeting Minutes</PageTitle>
-      <div className="grid grid-flow-col grid-cols-6">
-        <div className="col-span-4 col-start-2">
+      <PageTitle>Meeting Minutes</PageTitle>
+      {/* <div className="grid grid-flow-col grid-cols-6"> */}
+        {/* <div className="col-span-4 col-start-2">
           <p>
             Each meeting minutes contains information about the time,
             location, and participants for each meeting. It also contains
@@ -94,9 +95,24 @@ export default function LogsPage() {
           <p>
             Click the following buttons to view the PDF of the minutes for each meeting.{" "}
           </p>
+        </div> */}
+
+        <div className='w-[800px] flex-col flex items-start justify-start gap-4'>
+          <p>
+            Each meeting minutes contains information about the time,
+            location, and participants for each meeting. It also contains
+            details about what our team discussed during the meeting.
+          </p>
+    
+          <p>
+            Click the following buttons to view the PDF of the minutes for each meeting.{" "}
+          </p>
+
+          <div className='flex-col flex items-center justify-start w-full'>
+            <MinutesList />
+          </div>
         </div>
-        
-        {/* Meeting Minutes #1 */}
+{/*         
         <div className="col-start-2 row-start-3">
           <a
             target="blank"
@@ -125,7 +141,6 @@ export default function LogsPage() {
           </a>
         </div>
 
-        {/* Meeting Minutes #2 */}
         <div className="col-start-5 row-start-3">
           <a
             target="blank"
@@ -152,8 +167,8 @@ export default function LogsPage() {
             </svg>
             Group meet 2
           </a>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </main>
   );
 }
