@@ -6,12 +6,9 @@ export default function LogsPage() {
   return (
     <main
       style={{ marginLeft: "80px", marginRight: "80px" }}
-      className="flex min-h-screen flex-col items-center justify-start pt-12"
+      className="flex min-h-screen flex-col items-center justify-start py-24"
     >
      
-
-      {/* divider */}
-      <div className="mt-10"></div>
 
       <PageTitle>Meeting Minutes</PageTitle>
 

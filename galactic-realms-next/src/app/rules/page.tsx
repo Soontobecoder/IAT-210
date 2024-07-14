@@ -10,7 +10,7 @@ export default function RulesPage() {
         marginRight: "150px",
         textAlign: "justify",
       }}
-      className="flex min-h-screen flex-col justify-start p-24"
+      className="flex min-h-screen flex-col justify-start py-24"
     >
       <PageTitle>Rules</PageTitle>
       {/* Components */}
