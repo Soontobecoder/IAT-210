@@ -81,19 +81,18 @@ export default function LogsPage() {
       {/* divider */}
       <div className="mt-10"></div>
 
-      <PageTitle>Group meet Logs</PageTitle>
+      <PageTitle>Group Meeting Minutes</PageTitle>
       <div className="grid grid-flow-col grid-cols-6">
         <div className="col-span-4 col-start-2">
           <p>
-            Each meeting minutes contains information about the timing,
+            Each meeting minutes contains information about the time,
             location, and participants for each meeting. It also contains
             details about what our team discussed during the meeting.
           </p>
         </div>
         <div className="col-span-4 col-start-2 mt-5 mb-5 row-start-2">
           <p>
-            Click the following buttons to view the PDF file for each meeting
-            minutes.{" "}
+            Click the following buttons to view the PDF of the minutes for each meeting.{" "}
           </p>
         </div>
         
