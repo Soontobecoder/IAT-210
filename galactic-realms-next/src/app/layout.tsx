@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
 
-
-
-import "./globals.css";
+import "@/styles/globals.css";
 import '@radix-ui/themes/styles.css';
-
-
 
 import { Providers } from '@/components/providers/Providers';
 import { MainLayout } from '@/components/layout/MainLayout';
