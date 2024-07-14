@@ -25,10 +25,10 @@ export const minutesData: LogData[] = [
 export const playtestData: LogData[] = [
   {
     label: "Jul 10, 2024",
-    href: "playtests/iat-210_playtest-1.pdf",
+    href: "playtests/playtest-1.pdf",
   },
   {
     label: "Jul 11, 2024",
-    href: "playtests/iat-210_playtest-2.pdf",
+    href: "playtests/playtest-2.pdf",
   },
 ];
