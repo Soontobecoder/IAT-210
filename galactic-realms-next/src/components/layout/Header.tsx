@@ -10,7 +10,7 @@ export function Header() {
       <header
         style={{ background: "white" }}
         className={cn(
-          "fixed w-full z-20 top-0 start-0 px-8 h-20 border-b-2 flex flex-row justify-start items-center",
+          "fixed w-full z-20 top-0 start-0 px-8 h-20 border-b-2 flex flex-row justify-start items-center ",
           "gap-4 top-0 left-0",
           orbitron.className
         )}

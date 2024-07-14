@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main
       style={{ marginLeft: "80px", marginRight: "80px" }}
-      className="flex min-h-screen flex-col items-center justify-start p-24"
+      className="flex min-h-screen flex-col items-center justify-start pb-24 pt-20"
     >
       <Suspense fallback={<Spinner />}>
         <Banner />

@@ -8,18 +8,8 @@ import { orbitron } from "@/fonts";
 
 export function Banner() {
   return (
-    <div className="w-screen relative">
-      <div className="w-screen relative">
+      <div className="w-screen relative m-0 p-0">
         <Image src={bannerImg} alt="Game Board Banner" priority />
       </div>
-      <div
-        className={cn(
-          "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-          // 'border-2 border-red-500',
-        )}
-      >
-      
-      </div>
-    </div>
   );
 }
