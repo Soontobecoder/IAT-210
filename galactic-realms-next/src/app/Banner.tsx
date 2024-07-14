@@ -2,7 +2,7 @@ import { Suspense } from "react";
 
 import Image from "next/image";
 
-import starMap from "/public/banner.png";
+import starMap from "/public/game-board-banner.png";
 import { cn } from "@/utils/cn";
 import { orbitron } from "@/fonts";
 
