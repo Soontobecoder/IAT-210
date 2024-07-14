@@ -240,6 +240,16 @@ export default function RulesPage() {
           </p>
         </div>
       </div>
+
+      <div 
+        className='w-full flex flex-col items-center justify-start pt-24'>
+        <iframe 
+          className="w-[800px] h-[864px] border-2 border-black" 
+          src="rules/rulebook.pdf"
+          width="800" height="500">
+        </iframe>
+      </div>
+
     </main>
   );
 }
