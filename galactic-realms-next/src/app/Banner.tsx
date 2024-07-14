@@ -18,14 +18,7 @@ export function Banner() {
           // 'border-2 border-red-500',
         )}
       >
-        <h2
-          className={cn(
-            "relative text-white text-7xl font-bold scale-150",
-            orbitron.className
-          )}
-        >
-          Galactic Realms
-        </h2>
+      
       </div>
     </div>
   );
