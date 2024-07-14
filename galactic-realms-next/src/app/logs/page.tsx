@@ -18,13 +18,15 @@ export default function LogsPage() {
         </div>
         <div className="col-span-4 mt-5 mb-5 row-start-2 col-start-2">
           <p>
-            Click the following buttons to view the PDF file for each meeting
-            minutes.{" "}
+            Click the following buttons to view the PDF file for each play test
+            logs.{" "}
           </p>
         </div>
         <div className="row-start-3 col-start-2">
-          <button
+          <a
             type="button"
+            target="blank"
+            href="https://docs.google.com/document/d/1F99065wgKU0aB1ptlso5hC0aZHRO7kbmLagaGRE_XZU/edit"
             style={{ fontSize: "24px" }}
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
@@ -45,11 +47,13 @@ export default function LogsPage() {
               <path d="M13 3v6h6" />
             </svg>
             Play test 1
-          </button>
+          </a>
         </div>
         <div className="row-start-3 col-start-5">
-          <button
+          <a
+            href="https://docs.google.com/document/d/1REpbTSg4ofy3Ug02IiUXoxOZlTNaudHdGWQijnISG4A/edit"
             type="button"
+            target="blank"
             style={{ fontSize: "24px", marginLeft: "auto" }}
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
@@ -70,7 +74,7 @@ export default function LogsPage() {
               <path d="M13 3v6h6" />
             </svg>
             Play test 2
-          </button>
+          </a>
         </div>
       </div>
 
@@ -93,7 +97,9 @@ export default function LogsPage() {
           </p>
         </div>
         <div className="col-start-2 row-start-3">
-          <button
+          <a
+            target="blank"
+            href="https://docs.google.com/document/d/1oONTJ9TXjRmw60BjZ9P4yqc-I1TDHBKKyKkz4JudbV8/edit"
             type="button"
             style={{ fontSize: "24px" }}
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -115,10 +121,12 @@ export default function LogsPage() {
               <path d="M13 3v6h6" />
             </svg>
             Group meet 1
-          </button>
+          </a>
         </div>
         <div className="col-start-5 row-start-3">
-          <button
+          <a
+            target="blank"
+            href="https://docs.google.com/document/d/1fUEd9RVzYKQ8ugLa86mHZ1daCwzB1cP8Tqylkb6njY0/edit"
             type="button"
             style={{ fontSize: "24px" }}
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -140,7 +148,7 @@ export default function LogsPage() {
               <path d="M13 3v6h6" />
             </svg>
             Group meet 2
-          </button>
+          </a>
         </div>
       </div>
     </main>
