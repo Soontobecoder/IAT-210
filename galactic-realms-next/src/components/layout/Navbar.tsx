@@ -29,10 +29,10 @@ const links: NavLinkProps[] = [
     label: "Flowchart",
     href: "/flowchart",
   },
-  // {
-  //   label: '',
-  //   href: '/',
-  // },
+  {
+    label: 'Analysis',
+    href: '/analysis',
+  },
   // {
   //   label: '',
   //   href: '/',
