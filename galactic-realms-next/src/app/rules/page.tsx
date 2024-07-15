@@ -2,7 +2,7 @@ import { PageTitle } from "@/components/layout/PageTitle";
 import { cn } from "@/utils/cn";
 import { orbitron } from "@/fonts";
 
-const indentStyle = 'indent-10'
+const indentStyle = 'indent-10';
 
 export default function RulesPage() {
   return (
