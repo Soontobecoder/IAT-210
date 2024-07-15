@@ -10,13 +10,15 @@ import flowchart from '/public/flowchart/flowchart.jpg'
 export default function FlowchartPage() {
   return (
     <main
-      style={{ marginLeft: "80px", marginRight: "80px" }}
-      className="flex min-h-screen flex-col items-center justify-start py-24"
+      className="flex min-h-screen flex-col items-center justify-start py-24 w-full"
     >
       <PageTitle>Flowchart</PageTitle>
 
-
-      <Image src={flowchart} alt="Flowchart" priority />
+      <div className='w-[60rem] flex flex-col items-center justify-start'>
+        <Image src={flowchart} alt="Flowchart" priority 
+          className='w-full'
+        />
+      </div>
 
     </main>
   );

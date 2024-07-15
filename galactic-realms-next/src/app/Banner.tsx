@@ -8,7 +8,7 @@ import { orbitron } from "@/fonts";
 
 export function Banner() {
   return (
-      <div className="w-screen relative m-0 p-0">
+      <div className="w-full relative m-0 p-0">
         <Image src={bannerImg} alt="Game Board Banner" priority />
       </div>
   );

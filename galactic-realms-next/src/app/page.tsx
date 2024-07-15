@@ -9,8 +9,8 @@ import { Spinner } from "@radix-ui/themes";
 export default function Home() {
   return (
     <main
-      style={{ marginLeft: "80px", marginRight: "80px" }}
-      className="flex min-h-screen flex-col items-center justify-start pb-24 pt-20 "
+      // style={{ marginLeft: "80px", marginRight: "80px" }}
+      className="flex min-h-screen flex-col items-center justify-start pb-24 pt-20 w-full"
     >
       <Suspense fallback={<Spinner />}>
         <Banner />
@@ -54,9 +54,9 @@ export default function Home() {
 
         {/* Game pillars */}
         <div className="mt-20">
-          <div style={{ textAlign: "center" }}>
+          <div>
             <h2
-              className={cn("relative text-7xl font-bold", orbitron.className)}
+              className={cn("relative text-7xl font-bold text-center", orbitron.className)}
             >
               Game Pillars
             </h2>
@@ -70,7 +70,7 @@ export default function Home() {
                 What
               </h2>
               <p className="mt-5 text-2xl text-justify">
-                Explore a new galaxy full of remnants of an ancient civilization
+                Explore a new galaxy full of the remnants of an ancient civilization
                 and establish your foothold.
               </p>
             </div>
@@ -107,7 +107,7 @@ export default function Home() {
           <h2 className={cn("relative text-7xl font-bold", orbitron.className)}>
             Backstory
           </h2>
-          <p className="text-2xl mt-10 text-left indent-24">
+          <p className="text-2xl mt-10 text-left indent-10">
             In the year 2237, humanity stands on the brink of becoming a Type
             1.5 civilization on the Kardashev Scale. Earth&apos;s technological
             advancements have reached unprecedented levels, with energy
@@ -115,7 +115,7 @@ export default function Home() {
             resources dwindle and the population grows, the need for expansion
             becomes a priority.
           </p>
-          <p className="text-2xl mt-5 text-left indent-24">
+          <p className="text-2xl mt-5 text-left indent-10">
             Amidst this backdrop, the United Galactic Federation (UGF)
             has discovered a new galaxy, Andromis Major, just 30,000 light years
             away. A dwarf galaxy, Andromis Major is teeming with untapped 
