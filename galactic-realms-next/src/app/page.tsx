@@ -14,13 +14,18 @@ export default function Home() {
     >
       <Suspense fallback={<Spinner />}>
         <Banner />
+      </Suspense>
         
+        <div className={cn(
+          'w-[60rem] flex flex-col items-center justify-start'
+        )}>
+
         {/* Core statement  */}
         <div
           className="flex flex-col gap-10 my-20 text-center items-center justify-start w-[50rem]"
         >
           <div>
-            <h2 className={cn("text-7xl font-bold", orbitron.className)}>
+            <h2 className={cn("text-7xl font-bold text-justify", orbitron.className)}>
               Core Statement
             </h2>
           </div>
@@ -41,8 +46,8 @@ export default function Home() {
         </video> */}
         {/* iFrame tag just for fun */}
         <iframe
-          width="1920"
-          height="1080"
+          width="960"
+          height="540"
           className="w-full max-w-full mb-10 mt-10"
           src="https://www.youtube.com/embed/eYBSoGnsZQs"
         ></iframe>
@@ -56,40 +61,39 @@ export default function Home() {
               Game Pillars
             </h2>
           </div>
-          <div className="grid grid-flow-col grid-cols-3 gap-24 mt-12 mb-12">
-            <div style={{ textAlign: "center" }}>
+          <div className="grid grid-flow-col grid-cols-3 gap-10 mt-12 mb-12">
+            <div >
               <h2
                 style={{ color: "#5F7D8C" }}
-                className={cn("relative text-4xl", orbitron.className)}
+                className={cn("relative text-4xl text-center", orbitron.className)}
               >
                 What
               </h2>
-              <p className="mt-5 text-2xl">
+              <p className="mt-5 text-2xl text-justify">
                 Explore a new galaxy full of remnants of an ancient civilization
                 and establish your foothold.
               </p>
             </div>
-            <div style={{ textAlign: "center" }}>
+            <div >
               <h2
                 style={{ color: "#5F7D8C" }}
-                className={cn("relative text-4xl", orbitron.className)}
+                className={cn("relative text-4xl  text-center", orbitron.className)}
               >
                 How
               </h2>
-              <p className="mt-5 text-2xl">
+              <p className="mt-5 text-2xl text-justify">
                 Uncover Space Tiles and place your Starships to expand your influence.
               </p>
             </div>
-            <div style={{ textAlign: "center" }}>
+            <div >
               <h2
                 style={{ color: "#5F7D8C" }}
-                className={cn("relative text-4xl", orbitron.className)}
+                className={cn("relative text-4xl  text-center", orbitron.className)}
               >
                 Why
               </h2>
               <p className="mt-5 text-2xl">
-                The more you control, the more ancient technology and
-                infrastructure you can utilize to make your faction the
+                The more you control, the more ancient technology you can utilize to become the
                 powerhouse of a new era of human civilization.
               </p>
             </div>
@@ -125,7 +129,9 @@ export default function Home() {
             new <strong>Galactic Realms</strong>.
           </p>
         </div>
-      </Suspense>
+
+      </div>
+
     </main>
   );
 }
