@@ -2,6 +2,8 @@ import { PageTitle } from "@/components/layout/PageTitle";
 import { cn } from "@/utils/cn";
 import { orbitron } from "@/fonts";
 
+const indentStyle = 'indent-10'
+
 export default function RulesPage() {
   return (
     <main
@@ -28,9 +30,9 @@ export default function RulesPage() {
               Components
             </h2>
           </div>
-          <div className="mb-5">
+          <div className="mb-4">
             <p>
-              &emsp;The game box should include:
+              The game box should include:
             </p>
           </div>
 
@@ -55,7 +57,7 @@ export default function RulesPage() {
             </h2>
           </div>
           <div>
-            <p className='indent-16'>
+          <p className={cn(indentStyle)}>
               Each player chooses a colour, and takes the 6 Starships of that colour.
               From the 80 Space Tiles, there is one with a blue circle in the middle acting as a junction.
               Put it in the middle of the table as the starting tile. Place the remaining tiles back into the brown bag and
@@ -76,7 +78,7 @@ export default function RulesPage() {
             </h2>
           </div>
           <div>
-          <p className='indent-16'>
+          <p className={cn(indentStyle)}>
               Before diving into the explanation of this game, you should know what the goal is in Galactic Realms.
               One after the other, players will place tiles from the Tile Pool. This is how, one tile at a time,
               a map of Star Systems and Space Lanes will be created. You may place your Starships on these tiles,
@@ -98,7 +100,7 @@ export default function RulesPage() {
             </h2>
           </div>
           <div className="mb-5">
-            <p className='indent-16'>
+          <p className={cn(indentStyle)}>
               A game of Galactic Realms is played in clockwise order.
               Starting with the first player, the current player does the following
               actions in the order listed below, after which it is the next player’s turn,
@@ -215,26 +217,27 @@ export default function RulesPage() {
               Contesting Control
             </h2>
           </div>
-          <div>
             
-            <p className='indent-16'>
-              Space Lanes and Star Systems can only have multiple Starships on them if those Starships started out on separate features, and the placement of a
-              tile then connected those previously disconnected features.
+          <div className="flex flex-col items-start justify-start gap-4">
+            <p className={cn(indentStyle)}>
+                Space Lanes and Star Systems can only have multiple Starships on them if those Starships started out on separate features, and the placement of a
+                tile then connected those previously disconnected features.
             </p>
-            
-            <p className='indent-16'>
-              During scoring, in the case where more than one player has Starships on a feature, the player with the most Starships on that feature is awarded all of
-              the points for it, and all other players are awarded nothing. If two or more players are tied for the most Starships on the feature, those players are all awarded full points,
-              while all other players are awarded nothing.
+              
+            <p className={cn(indentStyle)}>
+                During scoring, in the case where more than one player has Starships on a feature, the player with the most Starships on that feature is awarded all of
+                the points for it, and all other players are awarded nothing. If two or more players are tied for the most Starships on the feature, those players are all awarded full points,
+                while all other players are awarded nothing.
             </p>
-            
-            <p className='indent-16'>
-              For the sake of determining how many Starships a player has on the feature, powered up Starships (those with a Cosmic Token beneath them) are worth 2 Starships.
-              For example, if the Blue player has 1 Starship on a feature that is being scored, while the Red player has one powered up Starship on the feature. Since the Red player’s
-              Starship is worth 2, the Red player wins all of the points for the feature and the Blue player wins none. If the Blue player has 2 Starships on the feature, and the Red
-              player has one powered up Starship, then the Red and Blue player would be tied, so they would both be awarded the full points for the feature.
+              
+            <p className={cn(indentStyle)}>
+                For the sake of determining how many Starships a player has on the feature, powered up Starships (those with a Cosmic Token beneath them) are worth 2 Starships.
+                For example, if the Blue player has 1 Starship on a feature that is being scored, while the Red player has one powered up Starship on the feature. Since the Red player’s
+                Starship is worth 2, the Red player wins all of the points for the feature and the Blue player wins none. If the Blue player has 2 Starships on the feature, and the Red
+                player has one powered up Starship, then the Red and Blue player would be tied, so they would both be awarded the full points for the feature.
             </p>
           </div>
+          
         </div>
 
         {/* placing star ships */}
@@ -248,7 +251,7 @@ export default function RulesPage() {
             </h2>
           </div>
           <div>
-            <p className='indent-16'>
+          <p className={cn(indentStyle)}>
               You may only place a Starship on your turn, after placing a Space Tile, and only onto a valid feature on that Space Tile. You may not place it on a feature if that
               feature already has a Starship on it. All contiguous features are considered the same feature for determining whether a feature already has a Starship on it or not.
             </p>
@@ -266,7 +269,7 @@ export default function RulesPage() {
             </h2>
           </div>
           <div>
-            <p className='indent-16'>
+          <p className={cn(indentStyle)}>
               If you complete a feature (Space Lane, Star System, Military Station), you gain a Cosmic Token regardless of whether you scored any points for that feature.
               If there are no more Cosmic Tokens to give out, use another item as a substitute.
             </p>
@@ -284,7 +287,8 @@ export default function RulesPage() {
             </h2>
           </div>
           <div>
-          <p className='indent-16'>
+          
+          <p className={cn(indentStyle)}>
               You may only place Starships if you have any remaining. If you run out of Starships you must wait for features with your Starships to
               be scored to have them return to your supply, or spend a Cosmic Token to return one.
             </p>
@@ -302,14 +306,14 @@ export default function RulesPage() {
             </h2>
           </div>
           <div>
-          <p className='indent-16'>
-              The game ends immediately after the turn of the player who placed the last tile. Then,
-              players proceed to perform the final scoring, after which the winner will be known to all!
+          <p className={cn(indentStyle)}>
+              The game ends immediately after the turn of the player who placed 
+              the last tile. Then, players proceed to perform the final 
+              scoring, after which the winner will be known to all! Once the 
+              game is over, all incomplete features which have a Starship on 
+              them are scored following slightly modified scoring rules:
             </p>
-            <p className='indent-16'>
-              Once the game is over, all incomplete features which have a Starship on them are scored following slightly modified scoring rules:
-            </p>
-            <ul className="pl-10 list-disc">
+            <ul className="pl-10 list-disc mt-5">
               <li>Each incomplete Space Lane is worth 1 point per tile, just like during the game.</li>
               <li>Each incomplete Star System is worth 1 point per tile and each Supernova in it is worth 1 point. Thus, incomplete Star Systems are worth half points.</li>
               <li>Each unfinished Military Station scores 1 point for each tile directly adjacent to it, plus 1 point for the tile itself. For example, if the Military Station was 1 tile away from being complete (5 adjacent tiles),
