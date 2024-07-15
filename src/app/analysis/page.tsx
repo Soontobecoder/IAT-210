@@ -7,10 +7,10 @@ const pdfs = [
     src: "analysis/quantitative-analysis.pdf"
   },
   {
-    src: "analysis/dilemmas-and-trade-offs.pdf"
+    src: "analysis/main-game-dynamics.pdf"
   },
   {
-    src: "analysis/main-game-dynamics.pdf"
+    src: "analysis/dilemmas-and-trade-offs.pdf"
   },
   // {
   //   src: ""
