@@ -16,7 +16,7 @@ export default function RulesPage() {
       <PageTitle>Rules</PageTitle>
 
       <div 
-        className='w-[50rem] flex flex-col items-start justify-start'
+        className='w-[60rem] flex flex-col items-start justify-start text-lg'
       >
         
 
