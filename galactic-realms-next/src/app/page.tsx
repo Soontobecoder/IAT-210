@@ -37,20 +37,20 @@ export default function Home() {
         </div>
 
         {/* Trailer video */}
-        {/* <video className="w-full h-auto max-w-full mb-10 mt-10" controls>
+        <video className="w-full h-auto max-w-full mb-10 mt-10" controls>
           <source
-            src="/@/assets/video.mp4"
+            src="/trailer/galactic-realms-trailer.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
-        </video> */}
+        </video>
         {/* iFrame tag just for fun */}
-        <iframe
+        {/* <iframe
           width="960"
           height="540"
           className="w-full max-w-full mb-10 mt-10"
           src="https://www.youtube.com/embed/eYBSoGnsZQs"
-        ></iframe>
+        ></iframe> */}
 
         {/* Game pillars */}
         <div className="mt-20">
