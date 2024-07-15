@@ -38,8 +38,8 @@ const links: NavLinkProps[] = [
   //   href: '/',
   // },
   {
-    label: "References",
-    href: "/references",
+    label: "Credits",
+    href: "/credits",
   },
 ];
 
