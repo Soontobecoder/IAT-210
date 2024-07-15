@@ -17,11 +17,11 @@ export default function GalleryPage() {
         
         <div className="items-center flex flex-col gap-5 justify-start my-10">
 
-            <Image src={gameImg1} alt="Game Image One" className="w-[600px] h-auto" />
-            <Image src={gameImg2} alt="Game Image Two" className="w-[600px] h-auto" />
+            <Image src={gameImg1} alt="Game Image One" className="w-full h-auto" />
+            <Image src={gameImg2} alt="Game Image Two" className="w-full h-auto" />
          
-            <Image src={gameImg3} alt="Game Image Three" className="w-[600px] h-auto" />
-            <Image src={cosmicImg} alt="Cosmic Image" className="w-[600px] h-auto" />
+            <Image src={gameImg3} alt="Game Image Three" className="w-full h-auto" />
+            <Image src={cosmicImg} alt="Cosmic Image" className="w-full h-auto" />
 
         </div>
 
