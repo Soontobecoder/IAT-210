@@ -26,15 +26,18 @@ export default function AnalysisPage() {
       <PageTitle>Analysis</PageTitle>
 
       <div 
-        className='w-full flex flex-col items-center justify-start gap-4'>
+        className='w-[60rem] flex flex-col items-center justify-start gap-4'>
 
         {pdfs.map(({src}) => (
+          <div
+          key={src}
+          className='w-full flex flex-col items-center justify-start aspect-[1/1.3]'>
           <iframe 
-            key={src}
-            className="w-[800px] h-[864px] border-2 border-black" 
-            src={src}
-            width="800" height="500">
-          </iframe>
+            className="w-full h-full border-2 border-black" 
+            src={`${src}#view=fit`}
+            width="800" height="500"
+            />
+          </div>
          ))}
 
       </div>
