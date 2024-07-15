@@ -9,9 +9,9 @@ const pdfs = [
   {
     src: "analysis/dilemmas-and-trade-offs.pdf"
   },
-  // {
-  //   src: ""
-  // },
+  {
+    src: "analysis/main-game-dynamics.pdf"
+  },
   // {
   //   src: ""
   // },
