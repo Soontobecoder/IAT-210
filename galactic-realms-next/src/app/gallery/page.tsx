@@ -10,12 +10,12 @@ import cosmicImg from "/public/cosmic-tile-space-ship.png";
 export default function GalleryPage() {
   return (
     <main
-      style={{ marginLeft: "80px", marginRight: "80px" }}
-      className="flex min-h-screen flex-col items-center justify-start p-24"
+      className="flex min-h-screen flex-col items-center justify-start py-24 w-full"
     >
       <PageTitle>Visual Gallery</PageTitle>
-
-        <div className="items-center flex flex-wrap gap-5 justify-start p-24">
+      <div className='w-[60rem] flex flex-col items-center justify-start'>
+        
+        <div className="items-center flex flex-col gap-5 justify-start my-10">
 
             <Image src={gameImg1} alt="Game Image One" className="w-[600px] h-auto" />
             <Image src={gameImg2} alt="Game Image Two" className="w-[600px] h-auto" />
@@ -25,17 +25,15 @@ export default function GalleryPage() {
 
         </div>
 
+        <div
+          className='w-full flex flex-col items-center justify-start aspect-[1/1.3]'>
+          <iframe
+            className="w-full h-full border-2 border-black"
+            src="gallery/tile-gallery.pdf#view=fit"
+            />
+        </div>
 
-      <div
-        className='w-full flex flex-col items-center justify-start'>
-        <iframe
-          className="w-[800px] h-[864px] border-2 border-black"
-          src="gallery/tile-gallery.pdf"
-          width="800" height="500">
-        </iframe>
       </div>
-
-
 
     </main>
   );
